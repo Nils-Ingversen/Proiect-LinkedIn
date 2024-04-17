@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 7px;
+}
+
+.button:hover,
+.button.hovered {
+  background-color: rgb(179, 173, 173);
+}
+
+.buton-imagine {
+  width: 32px;
+  height: 32px;
+}

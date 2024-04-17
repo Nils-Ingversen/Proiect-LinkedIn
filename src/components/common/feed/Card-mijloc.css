@@ -1,0 +1,66 @@
+.post-card {
+  max-width: 580px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 50rem;
+  width: 40rem;
+  background-color: #e9ecef;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.post-imagine {
+  padding: 1rem;
+  border-radius: 2rem;
+  height: 30rem;
+}
+
+.post-name {
+  margin-left: 10%;
+  font-size: 1rem;
+}
+
+.post-description {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.post-views-and-likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-views {
+  margin-left: 10%;
+  font-size: 1rem;
+}
+
+.post-likes {
+  margin-right: 10%;
+  font-size: 1rem;
+}
+
+.buton-inima {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-color: #e9ecef;
+}
+
+.buton-inima:hover {
+  background-color: grey;
+  border-radius: 1rem;
+}
+
+.poza-inima {
+  display: block;
+  width: 100%;
+  height: auto;
+}

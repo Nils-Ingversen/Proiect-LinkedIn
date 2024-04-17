@@ -1,0 +1,147 @@
+.card-left-me {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.card-left-superior {
+  display: flex;
+  flex-direction: column;
+  background-color: #e9ecef;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 45rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.imagine-cardme {
+  width: 100%;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.box-poza-eu-cardme {
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+  margin-bottom: 8rem;
+}
+
+.poza-eu-cardme {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+  position: absolute;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid white;
+}
+
+.nume-cardme {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.descriere-cardme {
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  color: black;
+}
+
+.linie-cardme {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  border: none;
+}
+
+.button-cardme {
+  background-color: #e9ecef;
+  border: none;
+}
+
+.button-cardme:hover {
+  background-color: rgb(206, 205, 205);
+}
+
+.connection {
+  color: black;
+  font-size: 1rem;
+}
+
+.grow-your {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.strengthen {
+  color: black;
+  font-size: 1rem;
+}
+
+.try-premium {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.try-premium:hover {
+  color: blue;
+}
+
+.my-items {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.card-left-jos {
+  display: flex;
+  flex-direction: column;
+  background-color: #e9ecef;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.groups {
+  color: blue;
+  margin-left: 10%;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.discover-more {
+  border: none;
+  background-color: #e9ecef;
+  font-size: 1rem;
+  height: 2rem;
+}
+
+.discover-more:hover {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 1768px) {
+  .card-left-me {
+    margin-left: 5%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

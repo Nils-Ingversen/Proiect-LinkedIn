@@ -1,0 +1,64 @@
+.button-me {
+  padding: 1rem;
+}
+
+.buton-card {
+  background-color: rgb(147, 194, 255);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+}
+
+.card {
+  background-color: #ffefd3;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  width: 10rem;
+  height: 42rem;
+  position: absolute;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.titlu-card {
+  font-size: 1rem;
+  text-align: center;
+  color: #001b2e;
+}
+
+.buton-card-show-profile {
+  background-color: #adb6c4;
+  color: black;
+  border-radius: 2rem;
+  width: 95%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.linie-card {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  border: none;
+}
+
+.link-card {
+  border: none;
+  background-color: FFEFD3;
+}
+
+.link-card:hover {
+  color: blue;
+}
+
+.sign-out-card {
+  background-color: #adb6c4;
+  color: black;
+  border-radius: 2rem;
+  width: 95%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

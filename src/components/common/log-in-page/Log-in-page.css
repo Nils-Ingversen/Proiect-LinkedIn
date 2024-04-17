@@ -1,0 +1,89 @@
+.container-log-in {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../public/poza-fundal-log-in.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: inline-block;
+}
+
+.box-log-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-card-titlu-log-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25rem;
+}
+
+.welcome-back {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.card-log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.379);
+  border-radius: 2rem;
+  width: 30rem;
+  height: 32rem;
+}
+
+.titlu-card-log-in {
+  color: white;
+  font-size: 3rem;
+}
+
+.input-nume-log-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.titlu-input-log-in {
+  color: white;
+  margin-bottom: -1px;
+  font-size: 1.5rem;
+}
+
+.input-log-in {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  font-size: 1.5rem;
+}
+
+.log-in-button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.log-in-button:hover {
+  background-color: rgba(223, 160, 41, 0.655);
+}
+
+.lost-your-password {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.lost-your-password:hover {
+  color: black;
+}

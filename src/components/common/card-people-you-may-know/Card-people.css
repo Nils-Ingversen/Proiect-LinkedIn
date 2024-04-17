@@ -1,0 +1,56 @@
+.container-newsletters {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.titlu-newslatters {
+  padding-left: 1.5rem;
+}
+
+.card-newslatters {
+  width: 16rem;
+  height: 21rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.imagine-newslatters {
+  width: 5rem;
+}
+
+.nume-newslatter {
+  font-size: 1rem;
+}
+
+.nume-plus-imagine-newslatters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imagine-om-newslatters {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.nume-om-newslatters {
+  font-size: 0.9rem;
+}
+
+.buton-newslatters-subscribe {
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: solid 1px;
+}
+
+.buton-newslatters-subscribe:hover {
+  background-color: grey;
+}

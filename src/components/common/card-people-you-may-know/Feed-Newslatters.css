@@ -1,0 +1,19 @@
+.box-people {
+  background-color: #e9ecef;
+  max-width: 60rem;
+
+  margin: 2rem;
+  border-radius: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container-newsletters {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.titlu-newslatters {
+  padding-left: 1.5rem;
+}

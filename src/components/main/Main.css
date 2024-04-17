@@ -1,0 +1,6 @@
+.main {
+  background-color: #ced4da;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

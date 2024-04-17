@@ -1,0 +1,90 @@
+.box-start-a-post {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+  height: 10rem;
+  background-color: #e9ecef;
+  margin: 2rem;
+  border-radius: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box-input-buton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buton-post-start-a-post {
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+.start-a-post {
+  width: 25rem;
+  border-radius: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  border: none;
+  border: 1px solid rgb(133, 133, 133, 0.678);
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
+.butoane-start-a-post {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.box-buton-start-a-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 3rem;
+  background-color: #e9ecef;
+}
+
+.media-button-start-a-post {
+  border: none;
+  font-size: 1rem;
+  background-color: #e9ecef;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.event-button-start-a-post {
+  border: none;
+  font-size: 1rem;
+  background-color: #e9ecef;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.write-button-start-a-post {
+  border: none;
+  font-size: 1rem;
+  background-color: #e9ecef;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.media-button-start-a-post:hover {
+  background-color: grey;
+}
+
+.event-button-start-a-post:hover {
+  background-color: grey;
+}
+
+.write-button-start-a-post:hover {
+  background-color: grey;
+}

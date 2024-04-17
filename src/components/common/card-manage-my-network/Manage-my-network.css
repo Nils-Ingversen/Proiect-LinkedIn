@@ -1,0 +1,55 @@
+.box-manage-my-network {
+  display: flex;
+  flex-direction: column;
+  background-color: #e9ecef;
+
+  width: 15rem;
+  height: 30rem;
+  margin-left: 15%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.titlu-manage-my-network {
+  margin-left: 10%;
+}
+
+.button-manage-my-network {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  background-color: #e9ecef;
+  font-size: 1rem;
+}
+
+.button-manage-my-network:hover {
+  background-color: grey;
+}
+
+.box-link-network {
+  display: flex;
+  width: 14rem;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  align-items: center;
+}
+
+.link-network {
+  text-decoration: none;
+  color: black;
+}
+
+.link-network:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.box-linie-network {
+  padding-top: 1rem;
+}
+
+.linie-network {
+  width: 100%;
+}

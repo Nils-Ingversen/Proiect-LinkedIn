@@ -1,0 +1,57 @@
+.card-dreapta-tot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-card-stanga {
+  background-color: #e9ecef;
+  padding: 2rem;
+  margin: 2rem;
+  width: 20rem;
+  height: 35rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box-nume-poza {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem 2rem;
+}
+
+.imagine-follow {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 10rem;
+}
+
+.button-follow {
+  border-radius: 2rem;
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+  margin-left: 20%;
+  border: solid 1px;
+}
+
+.button-follow:hover {
+  background-color: grey;
+}
+
+.copy-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imagine-copy-right {
+  height: 1.3rem;
+}
+
+.titlu-copy-right {
+  font-size: 1.3rem;
+}

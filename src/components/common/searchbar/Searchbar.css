@@ -1,0 +1,31 @@
+.searchbar-box {
+  position: relative;
+  margin-right: 5%;
+}
+
+.searchbar-input {
+  width: 15rem;
+  height: 2.5rem;
+  background-color: rgb(147, 194, 255);
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 0px 30px;
+  color: black;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1768px) {
+  .searchbar-box {
+    margin-right: 1%;
+  }
+}
